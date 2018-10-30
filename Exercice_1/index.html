@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercice 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+  </head>
+  <body>
+    <div ng-init="count = 0">
+      <!-- ng-init initialise la compteur count à 0 -->
+      <button type="button" ng-click="count = count + 1">+</button>
+      <button type="button" ng-click="count = count - 1">-</button>
+      <p>Compteur : {{count}}</p>
+    </div>
+  </body>
+</html>
